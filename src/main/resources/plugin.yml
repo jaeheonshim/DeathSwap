@@ -1,0 +1,14 @@
+name: DeathSwap
+main: com.jaeheonshim.deathswap.DeathSwapPlugin
+version: 1.0
+author: jaeheonshim
+commands:
+  startswap:
+    description: Starts the death swap timer with the specified time interval
+    usage: /<command> [seconds]
+  swap:
+    description: Instantly initiate swap
+    usage: /<command>
+  stopswap:
+    description: Stop the death swap timer
+    usage: /<command>
